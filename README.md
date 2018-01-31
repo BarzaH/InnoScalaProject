@@ -2,6 +2,9 @@
 
 ## Build & Run ##
 
+First install SBT: http://scalatra.org/getting-started/installation.html
+
+Then:
 ```sh
 $ cd InnoScalaProject
 $ sbt

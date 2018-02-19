@@ -2,8 +2,11 @@
 
 ## Build & Run ##
 
+First install SBT: http://scalatra.org/getting-started/installation.html
+
+Then:
 ```sh
-$ cd My_Scalatra_Web_App
+$ cd InnoScalaProject
 $ sbt
 > jetty:start
 > browse

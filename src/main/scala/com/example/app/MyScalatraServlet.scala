@@ -1,12 +1,16 @@
 package com.example.app
 
-import org.scalatra._
+import java.sql.Time
 
+import org.scalatra._
 import org.json4s._
 import org.scalatra.json._
 import org.json4s.{DefaultFormats, Formats}
 
 case class Message(id: Int, text: String)
+case class User(var id: Int, var nickname: String, var password: String, var email: String)
+case class Twit(var id: Int, var text: String, var author: Int, var sub_time: Time)
+
 
 case class CreateMessage(text: String)
 case class MessageCreated(id: Int)
@@ -31,6 +35,7 @@ class MyScalatraServlet extends ScalatraServlet  with JacksonJsonSupport {
 
   post("/messages")
   {
+
     val messageData = parsedBody.extract[CreateMessage]
     val id = messages.foldLeft (0) ( (maxId, m) => if (m.id > maxId) m.id else maxId ) + 1
 

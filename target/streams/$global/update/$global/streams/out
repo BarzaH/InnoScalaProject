@@ -426,20 +426,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scalatra#scalatra-json_2.12;2.6.2 {compile=[default(compile)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatra#scalatra-json_2.12;2.6.2 {compile=[default(compile)]}
-[debug] 		tried /Users/mergalievibragim/.ivy2/local/org.scalatra/scalatra-json_2.12/2.6.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalatra#scalatra-json_2.12;2.6.2
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.pom
-[debug] 	public: found md file for org.scalatra#scalatra-json_2.12;2.6.2
-[debug] 		=> https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.pom (2.6.2)
-[debug] downloading https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.pom
-[debug] 	[SUCCESSFUL ] org.scalatra#scalatra-json_2.12;2.6.2!scalatra-json_2.12.pom(pom.original) (283ms)
-[debug] 		tried /Users/mergalievibragim/.ivy2/local/org.scalatra/scalatra-json_2.12/2.6.2/jars/scalatra-json_2.12.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.jar
-[debug] 	found org.scalatra#scalatra-json_2.12;2.6.2 in public
+[debug] sbt-chain: module revision found in cache: org.scalatra#scalatra-json_2.12;2.6.2
+[debug] 	found org.scalatra#scalatra-json_2.12;2.6.2 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -479,6 +467,125 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: com.jason-goodwin#authentikat-jwt_2.12;0.4.5 {compile=[default(compile)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.jason-goodwin#authentikat-jwt_2.12;0.4.5 {compile=[default(compile)]}
+[debug] 		tried /Users/mergalievibragim/.ivy2/local/com.jason-goodwin/authentikat-jwt_2.12/0.4.5/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.jason-goodwin#authentikat-jwt_2.12;0.4.5
+[debug] 		tried https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.pom
+[debug] 	public: found md file for com.jason-goodwin#authentikat-jwt_2.12;0.4.5
+[debug] 		=> https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.pom (0.4.5)
+[debug] downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.pom
+[debug] 	[SUCCESSFUL ] com.jason-goodwin#authentikat-jwt_2.12;0.4.5!authentikat-jwt_2.12.pom(pom.original) (267ms)
+[debug] 		tried /Users/mergalievibragim/.ivy2/local/com.jason-goodwin/authentikat-jwt_2.12/0.4.5/jars/authentikat-jwt_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.jar
+[debug] 	found com.jason-goodwin#authentikat-jwt_2.12;0.4.5 in public
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->runtime]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
+[debug] 	found commons-codec#commons-codec;1.9 in public
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-native_2.12;3.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.json4s#json4s-native_2.12;3.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/mergalievibragim/.ivy2/local/org.json4s/json4s-native_2.12/3.5.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.json4s#json4s-native_2.12;3.5.0
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom
+[debug] 	public: found md file for org.json4s#json4s-native_2.12;3.5.0
+[debug] 		=> https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom (3.5.0)
+[debug] downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom
+[debug] 	[SUCCESSFUL ] org.json4s#json4s-native_2.12;3.5.0!json4s-native_2.12.pom(pom.original) (262ms)
+[debug] 		tried /Users/mergalievibragim/.ivy2/local/org.json4s/json4s-native_2.12/3.5.0/jars/json4s-native_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.jar
+[debug] 	found org.json4s#json4s-native_2.12;3.5.0 in public
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT [compile]
@@ -902,6 +1009,94 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->runtime]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1392,6 +1587,100 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->runtime]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1777,15 +2066,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
-[debug] 	found commons-codec#commons-codec;1.9 in public
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-codec#commons-codec;1.9 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatra#scalatra-test_2.12;2.6.2->org.apache.httpcomponents#httpmime;4.5.3 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2814,6 +3094,106 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->runtime]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT [provided]
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [provided->default(compile)]
@@ -3328,6 +3708,106 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->runtime]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -3934,6 +4414,118 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->org.scalatra#scalatra-json_2.12;2.6.2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->runtime]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->master(compile)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-native_2.12;3.5.0 [runtime->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-native_2.12;3.5.0->org.json4s#json4s-core_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->org.json4s#json4s-jackson_2.12;3.6.0-M2 [runtime->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->com.jason-goodwin#authentikat-jwt_2.12;0.4.5 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -4376,18 +4968,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
-[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] == resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-codec#commons-codec;1.9 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatra#scalatra-test_2.12;2.6.2->org.apache.httpcomponents#httpmime;4.5.3 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4964,150 +5544,161 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.6.0-M2!json4s-ast_2.12.jar
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar
-[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
-[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
-[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
-[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
-[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (39ms)
-[debug] settings loaded (39ms)
-[debug] settings loaded (40ms)
-[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
-[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
-[debug] settings loaded (41ms)
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra-scalatest_2.12;2.6.2!scalatra-scalatest_2.12.jar
-[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.6.0-M2!json4s-scalap_2.12.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.6.v20170531!jetty-xml.jar
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.2!scalatra-test_2.12.jar
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.2!scalatra_2.12.jar
-[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.3!scalatest_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.6.v20170531!jetty-servlet.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.12;3.6.0-M2!json4s-jackson_2.12.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(bundle)
-[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.6.v20170531!jetty-util.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.2!jackson-core.jar(bundle)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.6.v20170531!jetty-webapp.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.6.v20170531!jetty-security.jar
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar
-[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.6.v20170531!jetty-server.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.jar
-[debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.7.22!mockito-core.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.6.v20170531!jetty-http.jar
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.6.v20170531!jetty-io.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
-[debug] 	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.8.v20171121!jetty-webapp.jar
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar
-[debug] 	[NOT REQUIRED] eu.medsea.mimeutil#mime-util;2.1.3!mime-util.jar(bundle)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.8.v20171121!jetty-servlet.jar
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.8.v20171121!jetty-security.jar
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.5!objenesis.jar
+[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
+[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
+[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
+[debug] no default ivy user dir defined: set to /Users/mergalievibragim/.ivy2
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
+[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
+[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
+[debug] no default cache defined: set to /Users/mergalievibragim/.ivy2/cache
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/mergalievibragim/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (46ms)
+[debug] settings loaded (46ms)
+[debug] settings loaded (46ms)
+[debug] settings loaded (46ms)
+[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
+[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
+[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	default resolver: default
+[debug] 	default resolver: default
+[debug] 	default cache: /Users/mergalievibragim/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	-- 5 resolvers:
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	shared [file]
+[debug] 	shared [file]
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	public [ibiblio]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	main [chain] [shared, public]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	local [file]
+[debug] 	local [file]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.8.v20171121!jetty-security.jar
+[debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.7.22!mockito-core.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.2!scalatra_2.12.jar
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.8.v20171121!jetty-server.jar
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.6.0-M2!json4s-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.12;3.6.0-M2!json4s-jackson_2.12.jar
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.8.v20171121!jetty-http.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.2!jackson-databind.jar(bundle)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.8.v20171121!jetty-webapp.jar
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-json_2.12;2.6.2!scalatra-json_2.12.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.6.v20170531!jetty-xml.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.8.v20171121!jetty-io.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.6.v20170531!jetty-servlet.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.4.6.v20170531!jetty-runner.jar
+[info] downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.6.v20170531!jetty-util.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.6.v20170531!jetty-security.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatra/scalatra-json_2.12/2.6.2/scalatra-json_2.12-2.6.2.jar
-[info] 	[SUCCESSFUL ] org.scalatra#scalatra-json_2.12;2.6.2!scalatra-json_2.12.jar (411ms)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.6.v20170531!jetty-server.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.6.0-M2!json4s-ast_2.12.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.6.v20170531!jetty-http.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.6.0-M2!json4s-scalap_2.12.jar
+[debug] 	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar
+[debug] 	[NOT REQUIRED] eu.medsea.mimeutil#mime-util;2.1.3!mime-util.jar(bundle)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.6.v20170531!jetty-io.jar
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(bundle)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.2!jackson-core.jar(bundle)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.6.0-M2!json4s-core_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.jar ...
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.2!jackson-databind.jar(bundle)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.jar
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-scalatest_2.12;2.6.2!scalatra-scalatest_2.12.jar
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.2!scalatra-test_2.12.jar
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.3!scalatest_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5.jar
+[info] 	[SUCCESSFUL ] com.jason-goodwin#authentikat-jwt_2.12;0.4.5!authentikat-jwt_2.12.jar (439ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.2!scalatra-common_2.12.jar
-[debug] :: resolution report :: resolve 3438ms :: artifacts dl 490ms
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT provided produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-provided.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT optional produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-optional.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT container produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-container.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT jetty produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-jetty.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile-internal.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime-internal.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test-internal.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT plugin produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-plugin.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT pom produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-pom.xml
-[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/mergalievibragim/my-scalatra-web-app/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-scala-tool.xml
-[debug] 	resolve done (3438ms resolve - 490ms download)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.jar
+[info] 	[SUCCESSFUL ] org.json4s#json4s-native_2.12;3.5.0!json4s-native_2.12.jar (1965ms)
+[debug] :: resolution report :: resolve 4448ms :: artifacts dl 2058ms
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT provided produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-provided.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT optional produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-optional.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT container produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-container.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT jetty produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-jetty.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile-internal.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime-internal.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test-internal.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT plugin produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-plugin.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT pom produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-pom.xml
+[debug] 	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-scala-tool.xml
+[debug] 	resolve done (4448ms resolve - 2058ms download)
 [info] Done updating.
 [warn] Found version conflict(s) in library dependencies; some are suspected to be binary incompatible:
-[warn] 	* org.json4s:json4s-core_2.12:3.6.0-M2 is selected over 3.5.2
+[warn] 	* org.json4s:json4s-jackson_2.12:3.6.0-M2 is selected over 3.5.0
+[warn] 	    +- com.jason-goodwin:authentikat-jwt_2.12:0.4.5       (depends on 3.5.0)
+[warn] 	    +- com.example:my-scalatra-web-app_2.12:0.1.0-SNAPSHOT (depends on 3.5.0)
+[warn] 	* org.json4s:json4s-core_2.12:3.6.0-M2 is selected over {3.5.0, 3.5.2}
 [warn] 	    +- org.json4s:json4s-jackson_2.12:3.6.0-M2            (depends on 3.6.0-M2)
 [warn] 	    +- org.scalatra:scalatra-json_2.12:2.6.2              (depends on 3.5.2)
+[warn] 	    +- org.json4s:json4s-native_2.12:3.5.0                (depends on 3.5.0)
 [warn] Run 'evicted' to see detailed eviction warnings

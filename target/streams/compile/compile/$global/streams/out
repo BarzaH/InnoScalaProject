@@ -1,4 +1,6 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/mergalievibragim/Desktop/InnoScalaProject/src/main/scala/com/example/app/Authorize.scala:5:24: imported `MyScalatraServlet' is permanently hidden by definition of class MyScalatraServlet in package app[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport com.example.app.MyScalatraServlet[0m
-[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/azatfanisovic/IdeaProjects/InnoScalaProject/src/main/scala/com/example/app/MyScalatraServlet.scala:54:80: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : java.util.Calendar[0m
+[0m[[0m[31merror[0m] [0m[0m required: java.util.Date[0m
+[0m[[0m[31merror[0m] [0m[0m      val newTwit = Twit(id, message.text, currentUser.id, Calendar.getInstance())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

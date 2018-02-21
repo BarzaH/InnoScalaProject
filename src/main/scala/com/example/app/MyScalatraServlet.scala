@@ -12,6 +12,8 @@ case class User(var id: Int, var nickname: String, var password: String, var ema
 case class Twit(var id: Int, var text: String, var author: Int, var sub_time: Time)
 
 
+case class LogIn(log: String, pass: String)
+
 case class CreateMessage(text: String)
 case class MessageCreated(id: Int)
 
@@ -24,9 +26,29 @@ class MyScalatraServlet extends ScalatraServlet  with JacksonJsonSupport {
   protected implicit lazy val jsonFormats: Formats = DefaultFormats
 
   var messages: List[Message]  = List(Message(1, "Good morning"), Message(2, "Good evening"))
+  var users: List[User]  = List(User(1, "morning", "1234", "m@m.ru"))
 
   before() {
     contentType = formats("json")
+  }
+
+  post("/sessions"){
+//    val a =10
+    val userData = parsedBody.extract[LogIn]
+
+    if(users.exists(x => x.nickname == userData.log && x.password == userData.pass))
+      {
+        val user = users.find(x => x.nickname == userData.log && x.password == userData.pass).get
+        val jwt = new JWTAuth(user)
+        var dd = jwt.validateJWTToken(jwt.jwt)
+//        println("leeee"+ dd.toString)
+      }
+
+//    if(user.password userData.pass)
+//
+
+
+//    Ok(String.format("Token: %S", "fuck"))
   }
 
   get("/") {

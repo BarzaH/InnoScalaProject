@@ -40,15 +40,11 @@ class MyScalatraServlet extends ScalatraServlet  with JacksonJsonSupport {
       {
         val user = users.find(x => x.nickname == userData.log && x.password == userData.pass).get
         val jwt = new JWTAuth(user)
-        var dd = jwt.validateJWTToken(jwt.jwt)
-//        println("leeee"+ dd.toString)
+//        var dd = jwt.validateJWTToken(jwt.jwt)
+        Ok(String.format("Token: %S", jwt.jwt))
       }
 
-//    if(user.password userData.pass)
-//
 
-
-//    Ok(String.format("Token: %S", "fuck"))
   }
 
   get("/") {

@@ -5,9 +5,9 @@
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
-[debug] 	found commons-codec#commons-codec;1.9 in public
+[debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master(compile)]
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.6
-[debug] 	found org.apache.commons#commons-lang3;3.6 in public
+[debug] 	found org.apache.commons#commons-lang3;3.6 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->master(compile)]
@@ -721,7 +721,6 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.8 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
@@ -1153,7 +1152,6 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->compile]
@@ -1304,13 +1302,13 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {test=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
-[debug] 	found commons-logging#commons-logging;1.2 in public
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
+[debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->master(compile)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile(*)]
@@ -1368,11 +1366,10 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.5.3 {test=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.3
-[debug] 	found org.apache.httpcomponents#httpclient;4.5.3 in public
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.5.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.3
+[debug] 	found org.apache.httpcomponents#httpclient;4.5.3 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->master(compile)]
@@ -1474,7 +1471,7 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [test->compile]
 [debug] sbt-chain: Checking cache for: dependency: javax.servlet#javax.servlet-api;3.1.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], provided=[default, compile, runtime, default(compile), master], container=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.1.0
-[debug] 	found javax.servlet#javax.servlet-api;3.1.0 in public
+[debug] 	found javax.servlet#javax.servlet-api;3.1.0 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.1.0 [test->master(compile)]
@@ -1599,13 +1596,13 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.6 {test=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.6
-[debug] 	found org.apache.httpcomponents#httpcore;4.4.6 in public
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.6
+[debug] 	found org.apache.httpcomponents#httpcore;4.4.6 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->master(compile)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile(*)]
@@ -1629,7 +1626,7 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.5.3 [test->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpmime;4.5.3 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.5.3
-[debug] 	found org.apache.httpcomponents#httpmime;4.5.3 in public
+[debug] 	found org.apache.httpcomponents#httpmime;4.5.3 in sbt-chain
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.5.3 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.5.3 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.5.3 [test->master(compile)]
@@ -3307,7 +3304,6 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test->compile]
@@ -3440,10 +3436,10 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->master(compile)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test->compile(*)]
@@ -3492,7 +3488,6 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test->compile]
@@ -3689,10 +3684,10 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->master(compile)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test->compile(*)]
@@ -3743,7 +3738,6 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->net.bytebuddy#byte-buddy-agent;1.6.11 [test-internal->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test-internal->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [test-internal->compile]
@@ -3876,10 +3870,10 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.9.2 [test-internal->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->master(compile)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [test-internal->compile(*)]
@@ -3928,7 +3922,6 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.9.2 [test-internal->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test-internal->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.3 [test-internal->compile]
@@ -4133,10 +4126,10 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;9.4.6.v20170531 [test-internal->master]
-[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->master(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->compile]
+[debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->master(compile)]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->runtime]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->compile]
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.6 [test-internal->compile(*)]
@@ -4223,88 +4216,88 @@
 [debug] == resolving dependencies com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar(src)
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.7.22!mockito-core.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.6.v20170531!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.3!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.6.v20170531!jetty-http.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.6.0-M2!json4s-scalap_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.6.v20170531!jetty-webapp.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.6.0-M2!json4s-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.2!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.2!scalatra_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.2!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.6.v20170531!jetty-servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.6.v20170531!jetty-servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
 [debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar(src)
-[debug] 		tried /Users/mergalievibragim/.ivy2/local/org.json4s/json4s-native_2.12/3.5.0/srcs/json4s-native_2.12-sources.jar
-[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.2!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.6.v20170531!jetty-xml.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.6.0-M2!json4s-scalap_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
-[debug] 		tried /Users/mergalievibragim/.ivy2/local/com.jason-goodwin/authentikat-jwt_2.12/0.4.5/srcs/authentikat-jwt_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5-sources.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.6.v20170531!jetty-security.jar(src)
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.6.v20170531!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.2!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.6.v20170531!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.6.v20170531!jetty-security.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
+[debug] 		tried /Users/azatfanisovic/.ivy2/local/com.jason-goodwin/authentikat-jwt_2.12/0.4.5/srcs/authentikat-jwt_2.12-sources.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.8.v20171121!jetty-servlet.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.8.v20171121!jetty-server.jar(src)
+[debug] 		tried /Users/azatfanisovic/.ivy2/local/org.json4s/json4s-native_2.12/3.5.0/srcs/json4s-native_2.12-sources.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.8.v20171121!jetty-http.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.8.v20171121!jetty-server.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.8.v20171121!jetty-webapp.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.8.v20171121!jetty-security.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.8.v20171121!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.4.6.v20170531!jetty-runner.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.6.v20170531!jetty-server.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.2!scalatra-test_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatra#scalatra-scalatest_2.12;2.6.2!scalatra-scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar(src)
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.5!objenesis.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(src)
 [info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar
 [info] downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-native_2.12;3.5.0!json4s-native_2.12.jar(src) (338ms)
-[debug] 	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.2!scalatra-common_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.6.0-M2!json4s-ast_2.12.jar(src)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.12/0.4.5/authentikat-jwt_2.12-0.4.5-sources.jar
-[info] 	[SUCCESSFUL ] com.jason-goodwin#authentikat-jwt_2.12;0.4.5!authentikat-jwt_2.12.jar(src) (347ms)
+[info] 	[SUCCESSFUL ] com.jason-goodwin#authentikat-jwt_2.12;0.4.5!authentikat-jwt_2.12.jar(src) (2895ms)
 [debug] 	[NOT REQUIRED] org.scalatra#scalatra-json_2.12;2.6.2!scalatra-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.12;3.6.0-M2!json4s-jackson_2.12.jar(src)
-[debug] :: resolution report :: resolve 811ms :: artifacts dl 376ms
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT compile produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-compile.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT runtime produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-runtime.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT test produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-test.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT provided produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-provided.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT optional produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-optional.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT container produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-container.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT jetty produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-jetty.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT compile-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-compile-internal.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT runtime-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-runtime-internal.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT test-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-test-internal.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT plugin produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-plugin.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT pom produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-pom.xml
-[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-scala-tool.xml
-[debug] 	resolve done (811ms resolve - 376ms download)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar
+[info] 	[SUCCESSFUL ] org.json4s#json4s-native_2.12;3.5.0!json4s-native_2.12.jar(src) (2917ms)
+[debug] 	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.2!scalatra-common_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.6.0-M2!json4s-ast_2.12.jar(src)
+[debug] :: resolution report :: resolve 676ms :: artifacts dl 2938ms
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT compile produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-compile.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT runtime produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-runtime.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT test produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-test.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT provided produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-provided.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT optional produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-optional.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT container produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-container.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT jetty produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-jetty.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT compile-internal produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-compile-internal.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT runtime-internal produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-runtime-internal.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT test-internal produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-test-internal.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT plugin produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-plugin.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT pom produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-pom.xml
+[debug] 	report for com.example#my-scalatra-web-app$sources;0.1.0-SNAPSHOT scala-tool produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app$sources-scala-tool.xml
+[debug] 	resolve done (676ms resolve - 2938ms download)

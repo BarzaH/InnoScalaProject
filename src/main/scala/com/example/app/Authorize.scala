@@ -1,26 +1,24 @@
 package com.example.app
 import authentikat.jwt._
-import org.json4s.JsonDSL._
-import org.json4s.JValue
-import com.example.app.MyScalatraServlet
 
-class JWTAuth(user: User) {
+class JWTAuth() {
   val header = JwtHeader("HS256")
   val secret = "AlphaTeam"
 
-  val claimsSet = JwtClaimsSet(Map("username" -> user.nickname, "id" -> user.id))
-  val jwt: String = JsonWebToken(header, claimsSet, secret)
+  def authorize(user:User): String ={
+    val claimsSet = JwtClaimsSet(Map("username" -> user.nickname, "id" -> user.id))
+    val jwt: String = JsonWebToken(header, claimsSet, secret)
+    return jwt
+  }
 
-//  def getJWTToken(user: User): String = {
-//
-//    jwt
-//  }
-
+  def validate(token:String): Boolean ={
+    JsonWebToken.validate(token,secret)
+  }
   def validateJWTToken(token: String): Int = {
     val isValid = JsonWebToken.validate(token, secret)
 
     if (isValid) {
-      val claims: Option[Map[String, String]] = jwt match {
+      val claims: Option[Map[String, String]] = token match {
         case JsonWebToken(header, claimsSet, signature) =>
           claimsSet.asSimpleMap.toOption
         case x =>

@@ -7,6 +7,7 @@ import org.scalatra._
 import org.json4s._
 import org.scalatra.json._
 import org.json4s.{DefaultFormats, Formats}
+import org.scalatra
 
 case class Message(text: String)
 
@@ -56,8 +57,12 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
 
   def validate() : Int = {
     val jwt = request.getHeader("token")
-    val curId = authorizer.validateJWTToken(jwt)
-    curId
+    if(jwt != null) {
+      val curId = authorizer.validateJWTToken(jwt)
+      curId
+    }else{
+      0
+    }
   }
 
 
@@ -110,7 +115,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
           twits(index).text = newUserData.text
           Ok(twits(index))
         } else {
-          "Not allowed"
+         MethodNotAllowed("Not allowed")
         }
       }
     }else{
@@ -129,12 +134,12 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
         val retweet = Retwit(currentUserId,twit.head)
         if(!retweets.contains(retweet)) {
           retweets = retweet :: retweets
-          retweets
+          Ok(retweet)
         }else{
-          "You cannot retwit message twice"
+          MethodNotAllowed("You cannot retweet message twice")
         }
       }else{
-        "You cannot retwit this message"
+        MethodNotAllowed("You cannot retweet this message")
       }
     }else{
       Unauthorized("You are not logged in")
@@ -173,9 +178,9 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       if (subscribeTo.nonEmpty) {
         if (!subscriptions.exists(s => (s.subscriberId == currentUserId) && (s.subscribedId == to))) {
           subscriptions = Subscriber(currentUserId, to) :: subscriptions
-          subscriptions
+          Ok(subscriptions)
         } else {
-          "You are already subscribed"
+          MethodNotAllowed("You are already subscribed")
         }
       }
     }else{
@@ -191,7 +196,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       val usersPosts = twits.filter(t => t.author == id)
       val retwited  =  retweets.filter(twit => twit.userId == id).map(r => r.twit)
       val total  = usersPosts ++ retwited
-      total
+      Ok(total)
     }else{
       Unauthorized("You are not logged in")
     }
@@ -208,9 +213,9 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       val additional = retweets.filter(retwit => subsId.contains(retwit.userId)).map(r => r.twit)
       feed = additional ++ feed
       if (feed.isEmpty) {
-        "Your feed is empty lul"
+        "Your feed is empty"
       } else {
-        feed
+        Ok(feed)
       }
     }else{
       Unauthorized("You are not logged in")

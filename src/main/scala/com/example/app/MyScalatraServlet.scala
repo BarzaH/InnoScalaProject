@@ -68,11 +68,10 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       {
         val user = users.find(x => x.nickname == userData.log && x.password == userData.pass).get
         val jwtToken : String = authorizer.authorize(user)
-//        var dd = authorizer.validateJWTToken(jwtToken)
-        Ok(String.format("Token: %s", jwtToken))
+        Ok(String.format("token: %s", jwtToken))
       }else
       {
-        NotAcceptable("Wrong login or password");
+        NotAcceptable("Wrong login or password")
       }
   }
 
@@ -91,7 +90,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       twits = newTwit :: twits
       Ok(String.format("New twit: %s", newTwit))
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -111,11 +110,11 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
           twits(index).text = newUserData.text
           twits
         } else {
-          "Her te v rilo"
+          "Not allowed"
         }
       }
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -138,7 +137,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
         "You cannot retwit this message"
       }
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -148,7 +147,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       retweets = retweets.filter(rt => (rt.userId != currentUserId) || rt.twit.id!=params("id").toInt)
       retweets
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -160,7 +159,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       twits = twits.filter(m => (m.id != params("id").toInt) || (m.author != currentUserId))
       twits
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -174,13 +173,13 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       if (subscribeTo.nonEmpty) {
         if (!subscriptions.exists(s => (s.subscriberId == currentUserId) && (s.subscribedId == to))) {
           subscriptions = Subscriber(currentUserId, to) :: subscriptions
+          subscriptions
         } else {
-          "tipa otlovil oshibku"
+          "You are already subscribed"
         }
       }
-      subscriptions
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -194,7 +193,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       val total  = usersPosts ++ retwited
       total
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 
@@ -214,7 +213,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
         feed
       }
     }else{
-      "You are not logged in"
+      Unauthorized("You are not logged in")
     }
   }
 }

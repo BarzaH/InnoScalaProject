@@ -8,7 +8,7 @@ class JWTAuth() {
   def authorize(user:User): String ={
     val claimsSet = JwtClaimsSet(Map("username" -> user.nickname, "id" -> user.id))
     val jwt: String = JsonWebToken(header, claimsSet, secret)
-    return jwt
+    jwt
   }
 
   def validate(token:String): Boolean ={

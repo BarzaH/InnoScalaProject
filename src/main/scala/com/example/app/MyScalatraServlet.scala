@@ -102,13 +102,13 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
       val id = params("id").toInt
       val matchingIndex = twits.zipWithIndex.collect { case (Twit(`id`, _, _, _), i) => i }
       if (matchingIndex.isEmpty)
-        NotFound("User not found")
+        NotFound("Twit not found")
       else {
         val index = matchingIndex.head
         val newUserData = parsedBody.extract[Message]
         if (twits(index).author == currentUserId) {
           twits(index).text = newUserData.text
-          twits
+          Ok(twits(index))
         } else {
           "Not allowed"
         }

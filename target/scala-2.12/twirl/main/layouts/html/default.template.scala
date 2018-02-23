@@ -41,8 +41,8 @@ Seq[Any](format.raw/*1.47*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Feb 20 20:22:54 MSK 2018
-                  SOURCE: /Users/azatfanisovic/IdeaProjects/InnoScalaProject/src/main/twirl/layouts/default.scala.html
+                  DATE: Fri Feb 23 13:01:45 MSK 2018
+                  SOURCE: /Users/mergalievibragim/Desktop/InnoScalaProject/src/main/twirl/layouts/default.scala.html
                   HASH: ab59b4dddbafceb665de3cb0f7ce9f2c8dc5df51
                   MATRIX: 582->1|722->46|749->47|803->75|828->80|891->117|919->125|955->136|979->140|1008->143
                   LINES: 14->1|19->1|20->2|22->4|22->4|25->7|25->7|26->8|26->8|27->9

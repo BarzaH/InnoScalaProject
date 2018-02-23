@@ -4,7 +4,7 @@
 		module="my-scalatra-web-app_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180222210705"
+		publication="20180223130144"
 	>
 		<description>
 		My Scalatra Web App

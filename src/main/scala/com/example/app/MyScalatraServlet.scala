@@ -145,7 +145,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
     val currentUserId = validate()
     if(currentUserId>0) {
       retweets = retweets.filter(rt => (rt.userId != currentUserId) || rt.twit.id!=params("id").toInt)
-      retweets
+      Ok("Retweet deleted")
     }else{
       Unauthorized("You are not logged in")
     }
@@ -157,7 +157,7 @@ class MyScalatraServlet extends ScalatraServlet with JacksonJsonSupport {
     val currentUserId = validate()
     if(currentUserId>0) {
       twits = twits.filter(m => (m.id != params("id").toInt) || (m.author != currentUserId))
-      twits
+      Ok("Twit deleted")
     }else{
       Unauthorized("You are not logged in")
     }

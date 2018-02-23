@@ -178,7 +178,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.commons#commons-lang3;3.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.commons#commons-lang3;3.6 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra_2.12;2.6.2->org.apache.commons#commons-lang3;3.6 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra_2.12;2.6.2->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra_2.12;2.6.2->org.apache.commons#commons-lang3;3.6 [compile->compile][0m
@@ -493,7 +493,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.9[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found commons-codec#commons-codec;1.9 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found commons-codec#commons-codec;1.9 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.jason-goodwin#authentikat-jwt_2.12;0.4.5->commons-codec#commons-codec;1.9 [compile->compile][0m
@@ -1883,7 +1883,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: javax.servlet#javax.servlet-api;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.1.0[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found javax.servlet#javax.servlet-api;3.1.0 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found javax.servlet#javax.servlet-api;3.1.0 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.jetty#jetty-server;9.4.6.v20170531->javax.servlet#javax.servlet-api;3.1.0 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.eclipse.jetty#jetty-server;9.4.6.v20170531->org.eclipse.jetty#jetty-http;9.4.6.v20170531 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -1987,9 +1987,9 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.3[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpclient;4.5.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpclient;4.5.3 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-test_2.12;2.6.2->org.apache.httpcomponents#httpclient;4.5.3 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->org.apache.httpcomponents#httpcore;4.4.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->org.apache.httpcomponents#httpcore;4.4.6 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -2006,11 +2006,11 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpcore;4.4.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpcore;4.4.6 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->org.apache.httpcomponents#httpcore;4.4.6 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -2027,11 +2027,11 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found commons-logging#commons-logging;1.2 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found commons-logging#commons-logging;1.2 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-codec#commons-codec;1.9 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -2062,9 +2062,9 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpmime;4.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.5.3[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpmime;4.5.3 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.apache.httpcomponents#httpmime;4.5.3 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-test_2.12;2.6.2->org.apache.httpcomponents#httpmime;4.5.3 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.3->org.apache.httpcomponents#httpclient;4.5.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.3->org.apache.httpcomponents#httpclient;4.5.3 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.3->org.apache.httpcomponents#httpclient;4.5.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-scalatest_2.12;2.6.2->org.scalatra#scalatra-test_2.12;2.6.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-scalatest_2.12;2.6.2->org.scalatra#scalatra-test_2.12;2.6.2 [compile->compile][0m
@@ -4885,7 +4885,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-test_2.12;2.6.2->org.apache.httpcomponents#httpclient;4.5.3 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->org.apache.httpcomponents#httpcore;4.4.6 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->org.apache.httpcomponents#httpcore;4.4.6 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -4909,7 +4909,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->org.apache.httpcomponents#httpcore;4.4.6 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-logging#commons-logging;1.2 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -4933,7 +4933,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-codec#commons-codec;1.9 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5.3->commons-codec#commons-codec;1.9 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -4969,7 +4969,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-test_2.12;2.6.2->org.apache.httpcomponents#httpmime;4.5.3 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.3->org.apache.httpcomponents#httpclient;4.5.3 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.3->org.apache.httpcomponents#httpclient;4.5.3 [compile->master(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.apache.httpcomponents#httpmime;4.5.3->org.apache.httpcomponents#httpclient;4.5.3 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalatra#scalatra-scalatest_2.12;2.6.2->org.scalatest#scalatest_2.12;3.0.3 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -5520,144 +5520,80 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.objenesis#objenesis;2.5!objenesis.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.6.0-M2!json4s-ast_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.6.v20170531!jetty-webapp.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/azatfanisovic/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/azatfanisovic/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/azatfanisovic/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/azatfanisovic/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/azatfanisovic/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (50ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (52ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (56ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (58ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/azatfanisovic/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.2!scalatra_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.1.0!javax.servlet-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-jackson_2.12;3.6.0-M2!json4s-jackson_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.13!twirl-api_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.mockito#mockito-core;2.7.22!mockito-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-json_2.12;2.6.2!scalatra-json_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra_2.12;2.6.2!scalatra_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jason-goodwin#authentikat-jwt_2.12;0.4.5!authentikat-jwt_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-jackson_2.12;3.6.0-M2!json4s-jackson_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.6.v20170531!jetty-xml.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-json_2.12;2.6.2!scalatra-json_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.6.v20170531!jetty-servlet.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.6.0-M2!json4s-scalap_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jason-goodwin#authentikat-jwt_2.12;0.4.5!authentikat-jwt_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.6.v20170531!jetty-util.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.2!scalatra-common_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.8.v20171121!jetty-webapp.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.6.v20170531!jetty-security.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.6.v20170531!jetty-server.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.8.v20171121!jetty-servlet.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.2!jackson-core.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-common_2.12;2.6.2!scalatra-common_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.6.v20170531!jetty-http.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.6.v20170531!jetty-io.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] eu.medsea.mimeutil#mime-util;2.1.3!mime-util.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.8.v20171121!jetty-security.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.8.v20171121!jetty-server.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-native_2.12;3.5.0!json4s-native_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.googlecode.juniversalchardet#juniversalchardet;1.0.3!juniversalchardet.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.8.v20171121!jetty-http.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] eu.medsea.mimeutil#mime-util;2.1.3!mime-util.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.6.11!byte-buddy.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.8.v20171121!jetty-io.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.6.11!byte-buddy-agent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.4.6.v20170531!jetty-runner.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-scalatest_2.12;2.6.2!scalatra-scalatest_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.objenesis#objenesis;2.5!objenesis.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.3!scalactic_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.6.0-M2!json4s-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.2!scalatra-test_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.2!jackson-databind.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.6.0-M2!json4s-ast_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.6.0-M2!json4s-scalap_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;9.4.8.v20171121!jetty-webapp.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;9.4.8.v20171121!jetty-servlet.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.2!jackson-core.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-security;9.4.8.v20171121!jetty-security.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;9.4.8.v20171121!jetty-server.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.8.v20171121!jetty-http.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.8.v20171121!jetty-io.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.json4s#json4s-native_2.12;3.5.0!json4s-native_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-runner;9.4.6.v20170531!jetty-runner.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-scalatest_2.12;2.6.2!scalatra-scalatest_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatra#scalatra-test_2.12;2.6.2!scalatra-test_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.3!scalatest_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.12!junit.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 2600ms :: artifacts dl 102ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT provided produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT optional produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT container produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-container.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT jetty produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-jetty.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT plugin produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT pom produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/azatfanisovic/IdeaProjects/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (2600ms resolve - 102ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1132ms :: artifacts dl 26ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT provided produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT optional produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT container produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-container.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT jetty produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-jetty.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT compile-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT runtime-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT test-internal produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT plugin produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT pom produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.example#my-scalatra-web-app_2.12;0.1.0-SNAPSHOT scala-tool produced in /Users/mergalievibragim/Desktop/InnoScalaProject/target/scala-2.12/resolution-cache/reports/com.example-my-scalatra-web-app_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1132ms resolve - 26ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
 [0m[[0m[33mwarn[0m] [0m[0mFound version conflict(s) in library dependencies; some are suspected to be binary incompatible:[0m
 [0m[[0m[33mwarn[0m] [0m[0m	* org.json4s:json4s-jackson_2.12:3.6.0-M2 is selected over 3.5.0[0m

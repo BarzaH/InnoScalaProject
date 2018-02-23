@@ -7,16 +7,16 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="jetty"
 		confs="compile, runtime, test, provided, optional, container, jetty, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180222210706"/>
+		date="20180223130144"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-runner">
 			<revision name="9.4.6.v20170531" status="release" pubdate="20170601025227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
-				<metadata-artifact status="no" details="" size="9379" time="0" location="/Users/azatfanisovic/.ivy2/cache/org.eclipse.jetty/jetty-runner/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.4.6.v20170531/jetty-runner-9.4.6.v20170531.pom"/>
+				<metadata-artifact status="no" details="" size="9379" time="0" location="/Users/mergalievibragim/.ivy2/cache/org.eclipse.jetty/jetty-runner/ivy-9.4.6.v20170531.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.4.6.v20170531/jetty-runner-9.4.6.v20170531.pom"/>
 				<caller organisation="com.example" name="my-scalatra-web-app_2.12" conf="jetty" rev="9.4.6.v20170531" rev-constraint-default="9.4.6.v20170531" rev-constraint-dynamic="9.4.6.v20170531" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jetty-runner" type="jar" ext="jar" status="no" details="" size="6638956" time="0" location="/Users/azatfanisovic/.ivy2/cache/org.eclipse.jetty/jetty-runner/jars/jetty-runner-9.4.6.v20170531.jar">
+					<artifact name="jetty-runner" type="jar" ext="jar" status="no" details="" size="6638956" time="0" location="/Users/mergalievibragim/.ivy2/cache/org.eclipse.jetty/jetty-runner/jars/jetty-runner-9.4.6.v20170531.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.4.6.v20170531/jetty-runner-9.4.6.v20170531.jar"/>
 					</artifact>
 				</artifacts>
